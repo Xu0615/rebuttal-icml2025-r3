@@ -5,8 +5,13 @@
 | -------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | Faithfulness   | 67.4 | 79.4 | 83.7 | 87.2 | 89.2 | 89.4 | 89.6 | 89.7 |
 
+## Table 2: Comparison of the accuracy of the two methods on five tasks
+| Method                          | Param Ratio | Add/Sub(300) | Mul/Div   | Sequence  | LCM       | Function   |
+| ------------------------------- | ----------- | ------------ | --------- | --------- | --------- | ---------- |
+| AdaLoRA                         | 1.7481%     | 76.70        | 92.75     | 90.10     | 89.80     | 98.20      |
+| **CircuitLoRA (rₒ=16, r_c=64)** | 1.4248%     | **83.10**    | **97.00** | **94.60** | **93.00** | 99.50      |
 
-## Table 2: Top-5 Critical Layers in five tasks
+## Table 3: Top-5 Critical Layers in five tasks
 | Task             | Top-5 Critical Layers |
 | ---------------- | --------------------- |
 | Add/Sub(100–500) | 0, 4, 6, 5, 2         |
