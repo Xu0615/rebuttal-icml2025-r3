@@ -6,7 +6,7 @@
 | Faithfulness   | 67.4 | 79.4 | 83.7 | 87.2 | 89.2 | 89.4 | 89.6 | 89.7 |
 
 
-## Table 2 Top-5 Critical Layers in five tasks
+## Table 2: Top-5 Critical Layers in five tasks
 | Task             | Top-5 Critical Layers |
 | ---------------- | --------------------- |
 | Add/Sub(100–500) | 0, 4, 6, 5, 2         |
